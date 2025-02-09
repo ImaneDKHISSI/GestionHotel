@@ -1,0 +1,108 @@
+.btn:hover
+    {
+      font-family: Playfair Display;
+      color: #be9f56;
+      background-color: #fff;
+      border: 1px solid #be9f56;
+      cursor: pointer;
+    }
+    .btn
+    {
+      margin-left: 250px;
+      font-family: Playfair Display;
+      background-color:  #be9f56;
+      color: #fff;
+      padding: 5px 12px 5px 12px ;
+      border: 1px solid white;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+
+
+    <!--------Css  popup-->
+
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  background: url(https://goo.gl/OeVhun) center no-repeat;
+  background-size: cover;
+}
+
+.blur-it {
+  filter: blur(4px);
+}
+
+
+.modal-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  background: rgb(128 77 44 / 41%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.modal {
+  width: 750px;
+  height: 500px;
+  display: block;
+  margin: 50% 0 0 -300px;
+  position: relative;
+  top: 50%; 
+  left: 50%;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal-wrapper.open .modal {
+  margin-top: -200px;
+  opacity: 1;
+}
+
+.head { 
+  width: 100%;
+  height: 40px;
+  padding: 12px 30px;
+  overflow: hidden;
+  background: #9c7d43;
+}
+
+.btn-close {
+  font-size: 25px;
+  display: block;
+  float: right;
+  color: white;
+  margin-top: -10px;
+}
+
+.content {
+  padding: 10%;
+}
+
+.good-job {
+  text-align: center;
+  
+  
+}
+.good-job .fa-thumbs-o-up {
+  font-size: 60px;
+}
+.good-job h2 {
+  font-size: 45px;
+  font-family: Playfair Display;
+  color: black;
+  margin-top: 50px;
+}

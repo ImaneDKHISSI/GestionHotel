@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+  $('.trigger').on('click', function() {
+  $('.modal-wrapper').toggleClass('open');
+  $('.page-wrapper').toggleClass('blur-it');
+  return false;
+  });
+  });
+  </script>
+<body>
+  <div class="modal-wrapper">
+      <div class="modal">
+        <div class="head">
+          <a class="btn-close trigger" href="#">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="content">
+            <div class="good-job">
+            
+              <img src="rr.png" width="190px" >
+            
+              <h2 >Réservation effectuer </h2>
+          
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+*
+{
+    font-family: Playfair Display;
+}
+.padding-nav-img
+{
+    padding-left: 400px;
+}
+
+.nav-link
+{
+    font-size: 18px;
+
+}
+.class1:hover 
+{
+    background-color: #fff;
+    color: #be9f56;
+    border-color: #be9f56;
+    font-weight: bold;
+}
+.navhover :hover
+{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.carousel-item >img
+{
+    height: 80%;
+    width: 100%;
+}
+.about-1
+{
+    justify-content: space-around;
+    padding-left: 600px;
+    padding-right: 600px;
+    
+}
+.carousel {
+    pointer-events: none;
+  }
+  
+.carousel:hover {
+    pointer-events: auto;
+}
+  
+.about-1 > p
+{
+    font-family: Playfair Display;
+    background-color:  #be9f56;
+    color: #fff;
+    padding: 2px 10px 2px 10px ;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.about-1 >p:hover
+{
+    font-family: Playfair Display;
+    color: #be9f56;
+    background-color: #fff;
+    border: 1px solid #be9f56;
+    cursor: pointer;
+    
+}
+.aftermenu
+{
+    margin-top: 70px;
+    
+}
+
+.aftermenu >h1 
+{
+    font-family: Playfair Display;
+    
+}
+.parag-1
+{
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: Playfair Display;
+    width: 45%;
+
+    border-right: 1px solid gray;
+}
+.parag-2
+{
+    padding-left: 10px;
+    padding-top: 39px;
+    width: 100%;
+}
+h3
+{
+    
+    padding-left: 10px;
+    
+}
+.about-2
+{
+    font-family: Playfair Display;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}

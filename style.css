@@ -1,0 +1,48 @@
+
+*
+{
+  font-family: Playfair Display;
+}
+
+img {
+    width: 25%;
+   
+  }
+  
+  h3, p {
+    margin: 5px 0;
+  }
+.navhover:hover
+{
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.card-link
+{
+    font-family: Playfair Display;
+    background-color:  #be9f56;
+    color: #fff;
+    padding: 5px 12px 5px 12px ;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+  .card-link:hover
+  {
+    font-family: Playfair Display;
+    color: #be9f56;
+    background-color: #fff;
+    border: 1px solid #be9f56;
+    cursor: pointer;
+  }
+  .last-item
+  {
+    margin-top: 40px;
+  }
+  .card-body
+  {
+    margin-left: 10px;
+    text-align: center;
+  }
+  
